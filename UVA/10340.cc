@@ -9,12 +9,8 @@ int main() {
     while (cin >> s1 >> s2) {
         int i = 0, j = 0;
 
-        while (true) {
-            // 扫描完
-            if (i == s1.size() || j == s2.size()) {
-                break;
-            }
-
+        // 扫描 s1，s2
+        while (i < s1.size() && j < s2.size()) {
             // 扫描 s1，s2
             if (s1[i] == s2[j++]) {
                 ++i;
