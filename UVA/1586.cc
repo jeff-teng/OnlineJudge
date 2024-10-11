@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <map>
 
 using namespace std;
 
@@ -10,7 +11,7 @@ int main() {
         {'C', 12.01},
         {'H', 1.008},
         {'O', 16},
-        {'N', 14.01},        
+        {'N', 14.01},
     };
 
     cin >> n;
